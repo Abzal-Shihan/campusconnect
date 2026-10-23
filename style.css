@@ -199,3 +199,37 @@ footer {
     }
 }
     
+#favorite-toggle {
+    padding: 12px 18px;
+    margin:  25px 8px 0 ;
+    border: none;
+    border-radius: 6px;
+    background-color: yellow;
+    color: #222;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#favorite-toggle:hover {
+    background-color: yellowgreen;
+}
+
+.card button {
+    margin: 10px 5px 0;
+}
+
+.card .save-btn {
+    background-color: green;
+}
+
+.card .save-btn:hover {
+    background-color: darkgreen;
+}
+.card .saved-btn {
+    background-color: red;
+}
+
+.card .saved-btn:hover{
+    background-color: darkred;
+}
+
